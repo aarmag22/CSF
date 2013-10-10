@@ -1,0 +1,12 @@
+Grader: Tyler Logan
+        logtyl02
+
+Score:     2 / 3
+
+Comments:
+
+           The first problem looks good, except the output seems twice as much as the answer.
+
+           Problem 3 looks great. Concise and readable.    
+
+           Try adding more whitespace between lines of code for improved readability.
