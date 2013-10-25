@@ -53,8 +53,10 @@ print "Problem 3 solution follows:"
 
 n = 10              # final value
 triangular = 0      # initial value
-for i in range(0,n):
-    triangular = 
+for i in range(n):
+    triangular = triangular + 1
+    i = i + 1
+
 print "Triangular number", n, "via loop:", triangular
 print "Triangular number", n, "via formula:", (n*(n+1))/2
 
