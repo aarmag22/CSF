@@ -9,7 +9,7 @@
 # you are done.  When you are done, running this file should compute and
 # print the answers to all the problems.
 
-
+import math
 ###
 ### Problem 1      
 ### Gauss's Problem: Adds natural numbers from 'i' thru 'n' and prints sum.
@@ -25,8 +25,7 @@ n = 100            # final value
 while i < n + 1:   # must use n + 1 to include the final value
     sum = sum + i  
     i = i + 1
-    
-print sum
+    print sum
 
 
 ###
@@ -39,7 +38,7 @@ print "Problem 2 solution follows:"
 x = 2             # initial value
 y = 10            # final value
 
-for i in range (x,y+1):
+for i in range (x, y + 1):
     r = 1.0 / x
     print r
     x = x + 1
@@ -53,9 +52,9 @@ print "Problem 3 solution follows:"
 
 n = 10              # final value
 triangular = 0      # initial value
-for i in range(n):
-    triangular = triangular + 1
-    i = i + 1
+for i in range(n + 1):
+    triangular = triangular + i
+
 
 print "Triangular number", n, "via loop:", triangular
 print "Triangular number", n, "via formula:", (n*(n+1))/2
@@ -68,8 +67,11 @@ print "Triangular number", n, "via formula:", (n*(n+1))/2
 print "Problem 4 solution follows:"
 
 n = 10
-for n in range(n,n+1):
-    print math.factorial(n)
+product = 1
+for i in range(1, n + 1):
+    product = product * i
+    
+print product
 
 ###
 ### Problem 5
