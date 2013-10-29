@@ -80,7 +80,13 @@ print product
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+numlines = 10
+for j in range (1, numlines + 1):
+    n = (numlines + 1) - j
+    product = 1
+    for i in range (1, n+1):
+        product = product * i
+    print product
 
 ###
 ### Problem 6
