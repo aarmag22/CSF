@@ -18,14 +18,15 @@ import math
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 1 solution follows:"
 
-sum = 0            # running total of values
-i = 1              # initial value
-n = 100            # final value
+sum = 0    # running total of values
+i = 1      # initial value
+n = 100    # final value
 
 while i < n + 1:   # must use n + 1 to include the final value
     sum = sum + i  
     i = i + 1
-    print sum
+    
+print sum
 
 
 ###
@@ -35,8 +36,8 @@ while i < n + 1:   # must use n + 1 to include the final value
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 2 solution follows:"
 
-x = 2             # initial value
-y = 10            # final value
+x = 2     # initial value
+y = 10    # final value
 
 for i in range (x, y + 1):
     r = 1.0 / x
@@ -101,8 +102,7 @@ print "Problem 6 solution follows:"
 ### Collaboration
 ###
 
-# ... List your collaborators and other sources of help here (websites, books, etc.),
-# ... as a comment (on a line starting with "#").
+# Brad Mattix, Khan Academy, 
 
 ###
 ### Reflection
