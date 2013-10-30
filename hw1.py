@@ -36,18 +36,25 @@ print "Problem 2 solution follows:"
 
 import hw1_test
 
-print hw1_test.a
-a = hw1_test.a    #sets a as variable from hw1_test
-print hw1_test.b
+a = hw1_test.a    #sets variables to corresponding boolean value from hw1_test
 b = hw1_test.b
-print hw1_test.c
 c = hw1_test.c
-print hw1_test.d
 d = hw1_test.d
-print hw1_test.e
 e = hw1_test.e
-print hw1_test.f
 f = hw1_test.f
+
+print a #hw1_test.a
+
+print hw1_test.b
+
+print hw1_test.c
+
+print hw1_test.d
+
+print hw1_test.e
+
+print hw1_test.f
+
 
 ###
 ### Problem 3
