@@ -22,10 +22,10 @@ a = 1
 b = -5.86
 c = 8.5408
 
-PlusValue = -b + math.sqrt ((b**2) - (4*a*c))/(2*a)
-MinusValue = -b - math.sqrt ((b**2) - (4*a*c))/(2*a)
+PlusValue = (-b + (math.sqrt (b**2 - ((4*a*c)))))/(2*a)
+MinusValue = (-b - (math.sqrt (b**2 - ((4*a*c)))))/(2*a)
 
-print PlusValue "&" MinusValue
+print PlusValue, "&", MinusValue
 
 ###
 ### Problem 2
