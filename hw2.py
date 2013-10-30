@@ -102,7 +102,7 @@ print "Problem 6 solution follows:"
 ### Collaboration
 ###
 
-# Brad Mattix, Khan Academy, 
+# Brad Mattix, Khan Academy 
 
 ###
 ### Reflection
