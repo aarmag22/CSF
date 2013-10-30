@@ -22,11 +22,10 @@ a = 1
 b = -5.86
 c = 8.5408
 
-y = -b + math.sqrt((b ** 2) - (4 * (a) * (c)))/(2 * (a))
-z = -b - math.sqrt((b ** 2) - (4 * (a) * (c)))/(2 * (a))
+PlusValue = -b + math.sqrt ((b**2) - (4*a*c))/(2*a)
+MinusValue = -b - math.sqrt ((b**2) - (4*a*c))/(2*a)
 
-print y
-print z
+print PlusValue "&" MinusValue
 
 ###
 ### Problem 2
@@ -43,17 +42,9 @@ d = hw1_test.d
 e = hw1_test.e
 f = hw1_test.f
 
-print a #hw1_test.a
-
-print hw1_test.b
-
-print hw1_test.c
-
-print hw1_test.d
-
-print hw1_test.e
-
-print hw1_test.f
+ListValues = [a, b, c, d, e, f]
+for i in ListValues:
+  print i  
 
 
 ###
