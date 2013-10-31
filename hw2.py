@@ -22,9 +22,9 @@ sum = 0    # running total of values
 i = 1      # initial value
 n = 100    # final value
 
-while i < n + 1:   # must use n + 1 to include the final value
+while i < n+1:   #use n + 1 to include the final value
     sum = sum + i  
-    i = i + 1
+    i = i+1
     
 print sum
 
@@ -39,10 +39,10 @@ print "Problem 2 solution follows:"
 x = 2     # initial value
 y = 10    # final value
 
-for i in range (x, y + 1):
-    r = 1.0 / x
+for i in range (x, y+1):
+    r = 1.0/x
     print r
-    x = x + 1
+    x = x+1
 
 ###
 ### Problem 3
@@ -53,7 +53,7 @@ print "Problem 3 solution follows:"
 
 n = 10              # final value
 triangular = 0      # initial value
-for i in range(n + 1):
+for i in range(n+1):
     triangular = triangular + i
 
 
@@ -69,7 +69,7 @@ print "Problem 4 solution follows:"
 
 n = 10
 product = 1
-for i in range(1, n + 1):
+for i in range(1,n+1):
     product = product * i
     
 print product
@@ -97,7 +97,16 @@ for j in range(numlines):
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+numlines = 10
+for j in range(numlines):
+    n = numlines-j
+    product = 1
+    sum = 1
+    for i in range(1,n+1):
+        product = product * i
+    recip = 1.0/product  ##Stuck here! Can't figure out why recip comes back as 0...
+sum = sum + recip
+print sum        
 
 ###
 ### Collaboration
