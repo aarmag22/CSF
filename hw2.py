@@ -82,12 +82,13 @@ print product
 print "Problem 5 solution follows:"
 
 numlines = 10
-for j in range (numlines + 1):
-    n = numlines - j
+for j in range(numlines):
+    n = numlines-j
     product = 1
-    for i in range (1, n + 1):
+    for i in range(1,n+1):
         product = product * i
     print product
+
 
 ###
 ### Problem 6
@@ -102,7 +103,7 @@ print "Problem 6 solution follows:"
 ### Collaboration
 ###
 
-# Brad Mattix, Khan Academy 
+# Brad Mattix, Khan Academy, interactivepython.org, pythontutor.com 
 
 ###
 ### Reflection
