@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Name: Maggie Aaron
+# Evergreen Login: aarmag22
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 3: DNA analysis (Part 1)
@@ -69,5 +69,31 @@ for bp in seq:
 # divide the gc_count by the total_count
 gc_content = float(gc_count) / total_count
 
+#########################################################################
+
+# Total nucleotides seen so far.
+total_count2 = 0
+# Number of A and T nucleotides seen so far.
+at_count = 0
+
+
+# for each base pair in the string,
+for bp in seq:
+    # increment the total number of bps we've seen
+    total_count2 = total_count2 + 1
+
+    # next, if the bp is a A or a T,
+    if bp == 'A' or bp == 'T':
+        # increment the count of at
+        at_count = at_count + 1
+
+
+# divide the gc_count by the total_count
+at_content = float(at_count) / total_count2
+
+
 # Print the answer
 print 'GC-content:', gc_content
+
+# Print the answer
+print 'AT-content:', at_content

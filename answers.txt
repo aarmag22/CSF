@@ -1,5 +1,5 @@
-Name: ...
-Evergreen Login: ...
+Name: Maggie Aaron
+Evergreen Login: aarmag22
 Computer Science Foundations
 Programming as a Way of Life
 Fall 2013
@@ -19,15 +19,25 @@ Problem 1:
 
 Problem 2:
 
-...
+GC-content: 0.3
 
 Problem 3:
+ 
+File "dna_analysis.py", line 40, in <module>
+    linenum = linenum + 1
+NameError: name 'linenum' is not defined
 
-...
+By commenting out the assignment, linenum = 0, 
+it causes a name error in line 40 because the program 
+is trying to reference the variable, linenum, that is undefined.
+
+By commenting out gc_count = 0, the same type of name error occurs 
+because gc_count is undefined.
 
 Problem 4:
 
-...
+GC-content: 0.43029262963
+AT-content: 0.568993851852
 
 Collaboration:
 
