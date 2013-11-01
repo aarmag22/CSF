@@ -22,7 +22,7 @@ sum = 0    # running total of values
 i = 1      # initial value
 n = 100    # final value
 
-while i < n+1:   #use n + 1 to include the final value
+while i < n+1:   # use n + 1 to include the final value
     sum = sum + i  
     i = i+1
     
@@ -46,7 +46,7 @@ for i in range (x, y+1):
 
 ###
 ### Problem 3
-###
+### Prints the nth Triangular number
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
@@ -62,7 +62,7 @@ print "Triangular number", n, "via formula:", (n*(n+1))/2
 
 ###
 ### Problem 4
-###
+### Factorial: Prints n!
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
@@ -76,7 +76,7 @@ print product
 
 ###
 ### Problem 5
-###
+### Multiple Factorials
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
@@ -92,7 +92,7 @@ for j in range(numlines):
 
 ###
 ### Problem 6
-###
+### Sum of Reciprocals of Factorials 
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
