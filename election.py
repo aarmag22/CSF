@@ -35,7 +35,11 @@ def state_edges(election_result_rows):
     The input list has no duplicate states;
     that is, each state is represented at most once in the input list.
     """
-    #TODO: Implement this function
+    d = {}
+    for row in election_result_rows:
+        d [row['State']] = row_to_edge(row)
+        
+    return d
     pass
 
 
@@ -55,6 +59,7 @@ def most_recent_poll_row(poll_rows, pollster, state):
     Given a list of poll data rows, returns the most recent row with the
     specified pollster and state. If no such row exists, returns None.
     """
+    
     #TODO: Implement this function
     pass
 
