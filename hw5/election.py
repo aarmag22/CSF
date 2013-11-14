@@ -59,8 +59,14 @@ def most_recent_poll_row(poll_rows, pollster, state):
     Given a list of poll data rows, returns the most recent row with the
     specified pollster and state. If no such row exists, returns None.
     """
-    
-    #TODO: Implement this function
+    mostrecent = None
+    date2 = 'May 22 1881'
+    for row in poll_rows:
+        date = row['Date']
+        if row['State'] == state and row['Pollster'] == pollster and earlier_date(date,date2) == False:
+            mostrecent = row
+            date2 = row['Date']
+    return mostrecent
     pass
 
 
@@ -73,14 +79,16 @@ def unique_column_values(rows, column_name):
     Given a list of rows and the name of a column (a string), returns a set
     containing all values in that column.
     """
-    #TODO: Implement this function
+    
+    for row in rows:
     pass
 
 def pollster_predictions(poll_rows):
     """
     Given a list of poll data rows, returns pollster predictions.
     """
-    #TODO: Implement this function
+    
+    
     pass
 
             
