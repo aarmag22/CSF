@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Name: Maggie Aaron
 # Evergreen Login: aarmag22
 # Computer Science Foundations
