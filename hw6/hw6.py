@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-# Name: Maggie Aaron, Josh Kendall, Zach Linton
-# Evergreen Login: aarmag22, kenjos03, linzac03
+# Name: Maggie Aaron
+# Evergreen Login: aarmag22
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 6
-# Group 20
 
 
 # You may do your work by editing this file, or by typing code at the
