@@ -95,7 +95,7 @@ def draw_rj():
 # Comment out this line after you have visually verified your rj graph and
 # created your PDF file.
 # Otherwise, the picture will pop up every time that you run your program.
-draw_rj()
+# draw_rj()
 
 
 ###
