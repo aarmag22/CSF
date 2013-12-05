@@ -72,15 +72,6 @@ t_count = 0
 for bp in seq:
     # increment the total number of bps we've seen
     total_count = total_count + 1
-
-    # next, if the bp is a G or a C,
-    if bp == 'C' or bp == 'G':
-        # increment the count of gc
-        gc_count = gc_count + 1
-    # if the bp is an A or a T,
-    elif bp == 'A' or bp == 'T':
-        # increment the count of at
-        at_count = at_count + 1
         
     # if the nucleotide is an A
     if bp == 'A':
@@ -98,7 +89,10 @@ for bp in seq:
     if bp == 'T':
         # increment the count of t
         t_count = t_count + 1
-        
+
+gc_count = g_count + c_count
+at_count = a_count + t_count
+
 # Total count of A, C, G, and T nucleotides
 sum_count = a_count + c_count + g_count + t_count        
 # Sequence length 
