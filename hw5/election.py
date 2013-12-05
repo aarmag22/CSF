@@ -42,7 +42,6 @@ def state_edges(election_result_rows):
     return d
     pass
 
-
 ################################################################################
 # Problem 2: Find the most recent poll row
 ################################################################################
@@ -69,7 +68,6 @@ def most_recent_poll_row(poll_rows, pollster, state):
     return mostrecent
     pass
 
-
 ################################################################################
 # Problem 3: Pollster predictions
 ################################################################################
@@ -80,8 +78,11 @@ def unique_column_values(rows, column_name):
     containing all values in that column.
     """
     
-    for row in rows:
-    pass
+    column = []
+    for c in rows:
+        column.append(c[column_name])
+    column = set(column)
+    return column
 
 def pollster_predictions(poll_rows):
     """
