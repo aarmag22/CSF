@@ -121,7 +121,7 @@ def friends_of_friends(graph, user): # s/b 4 lines, sets only, no lists or dicts
     fof = ()
     for i in friends(graph, user):
         fof = set(user)
-        return fof.remove(user)
+    return fof.remove(user)
         
 assert friends_of_friends(rj, "Mercutio") == set(['Benvolio', 'Capulet', 'Friar Laurence', 'Juliet', 'Montague'])
 
