@@ -114,8 +114,9 @@ def friends_of_friends(graph, user): # s/b 4 lines, sets only, no lists or dicts
     The result does not include the given user nor any of that user's friends.
     """
     print "To be implemented"
-    #for i in friends:
-        #call friends function for set of friends
+    
+    for i in friends:
+        #call friends function for set of friends, then remove user and duplicate friends
 
 assert friends_of_friends(rj, "Mercutio") == set(['Benvolio', 'Capulet', 'Friar Laurence', 'Juliet', 'Montague'])
 
