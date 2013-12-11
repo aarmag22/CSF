@@ -43,6 +43,7 @@ def draw_practice_graph():
 
 # Comment out this line after you have visually verified your practice graph.
 # Otherwise, the picture will pop up every time that you run your program.
+
 # draw_practice_graph()
 
 
@@ -95,6 +96,7 @@ def draw_rj():
 # Comment out this line after you have visually verified your rj graph and
 # created your PDF file.
 # Otherwise, the picture will pop up every time that you run your program.
+
 # draw_rj()
 
 
@@ -115,9 +117,12 @@ def friends_of_friends(graph, user): # s/b 4 lines, sets only, no lists or dicts
     """
     print "To be implemented"
     
-    for i in friends:
-        #call friends function for set of friends, then remove user and duplicate friends
-
+    
+    fof = ()
+    for i in friends(graph, user):
+        fof = set(user)
+        return fof.remove(user)
+        
 assert friends_of_friends(rj, "Mercutio") == set(['Benvolio', 'Capulet', 'Friar Laurence', 'Juliet', 'Montague'])
 
 
